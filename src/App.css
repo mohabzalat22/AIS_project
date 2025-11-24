@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 2rem;
+}
+
+.counter-container h1 {
+  font-size: 2.5rem;
+  color: #646cff;
+  margin: 0;
+}
+
+.counter-display {
+  background: #f9f9f9;
+  border: 3px solid #646cff;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  min-width: 150px;
+}
+
+.count-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #213547;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.counter-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 60px;
+}
+
+.counter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.increment {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #45a049;
+}
+
+.decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #da190b;
+}
+
+.reset {
+  background-color: #ff9800;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #e68900;
+}
