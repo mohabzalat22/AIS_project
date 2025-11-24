@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/AIS_project/',
   test: {
     globals: true,
-    environment: 'node',
+    environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
   },
 })
