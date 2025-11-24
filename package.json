@@ -1,7 +1,5 @@
 {
   "homepage": "https://mohabzalat22.github.io/AIS_project/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "name": "project",
   "private": true,
   "version": "0.0.0",
@@ -15,7 +13,7 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
